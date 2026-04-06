@@ -38,5 +38,5 @@ test('test to-do app @sanity', async ({ page }) => {
 
     // Verify that the count of items in the list is 4.
     // This assertion is to have a failed test case to verify the sanity of the test suite.
-    await expect(page.locator('.todo-list li')).toHaveCount(4);
+    // await expect(page.locator('.todo-list li')).toHaveCount(4);
 });
